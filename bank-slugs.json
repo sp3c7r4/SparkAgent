@@ -1,0 +1,798 @@
+[
+  {
+    "name": "9mobile 9Payment Service Bank",
+    "slug": "9mobile-9payment-service-bank-ng"
+  },
+  {
+    "name": "Abbey Mortgage Bank",
+    "slug": "abbey-mortgage-bank-ng"
+  },
+  {
+    "name": "Above Only MFB",
+    "slug": "above-only-mfb"
+  },
+  {
+    "name": "Abulesoro MFB",
+    "slug": "abulesoro-mfb-ng"
+  },
+  {
+    "name": "Access Bank",
+    "slug": "access-bank"
+  },
+  {
+    "name": "Access Bank (Diamond)",
+    "slug": "access-bank-diamond"
+  },
+  {
+    "name": "Accion Microfinance Bank",
+    "slug": "accion-microfinance-bank-ng"
+  },
+  {
+    "name": "Aella MFB",
+    "slug": "aella-mfb-ng"
+  },
+  {
+    "name": "AG Mortgage Bank",
+    "slug": "ag-mortgage-bank-ng"
+  },
+  {
+    "name": "Ahmadu Bello University Microfinance Bank",
+    "slug": "ahmadu-bello-university-microfinance-bank-ng"
+  },
+  {
+    "name": "Airtel Smartcash PSB",
+    "slug": "airtel-smartcash-psb-ng"
+  },
+  {
+    "name": "AKU Microfinance Bank",
+    "slug": "aku-mfb"
+  },
+  {
+    "name": "Akuchukwu Microfinance Bank Limited",
+    "slug": "akuchukwu-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "ALAT by WEMA",
+    "slug": "alat-by-wema"
+  },
+  {
+    "name": "Alternative bank",
+    "slug": "the-alternative-bank-ng"
+  },
+  {
+    "name": "Amegy Microfinance Bank",
+    "slug": "amegy-microfinance-bank-ng"
+  },
+  {
+    "name": "Amju Unique MFB",
+    "slug": "amju-unique-mfb"
+  },
+  {
+    "name": "Aramoko MFB",
+    "slug": "aramoko-mfb"
+  },
+  {
+    "name": "ASO Savings and Loans",
+    "slug": "asosavings"
+  },
+  {
+    "name": "Assets Microfinance Bank",
+    "slug": "assets-microfinance-bank-ng"
+  },
+  {
+    "name": "Astrapolaris MFB LTD",
+    "slug": "astrapolaris-mfb"
+  },
+  {
+    "name": "AVUENEGBE MICROFINANCE BANK",
+    "slug": "avuenegbe-microfinance-bank-ng"
+  },
+  {
+    "name": "AWACASH MICROFINANCE BANK",
+    "slug": "awacash-microfinance-bank-ng"
+  },
+  {
+    "name": "AZTEC MICROFINANCE BANK LIMITED",
+    "slug": "aztec-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Bainescredit MFB",
+    "slug": "bainescredit-mfb"
+  },
+  {
+    "name": "Banc Corp Microfinance Bank",
+    "slug": "banc-corp-microfinance-bank-ng"
+  },
+  {
+    "name": "BANKIT MICROFINANCE BANK LTD",
+    "slug": "bankit-microfinance-bank-ltd-ng"
+  },
+  {
+    "name": "BANKLY MFB",
+    "slug": "ampersand-microfinance-bank-ng"
+  },
+  {
+    "name": "Baobab Microfinance Bank",
+    "slug": "baobab-microfinance-bank-ng"
+  },
+  {
+    "name": "BellBank Microfinance Bank",
+    "slug": "bellbank-microfinance-bank-ng"
+  },
+  {
+    "name": "Benysta Microfinance Bank Limited",
+    "slug": "benysta-microfinance-bank-limited"
+  },
+  {
+    "name": "Beststar Microfinance Bank",
+    "slug": "beststar-microfinance-bank-ng"
+  },
+  {
+    "name": "BOLD MFB",
+    "slug": "bold-mfb-ng"
+  },
+  {
+    "name": "Bosak Microfinance Bank",
+    "slug": "bosak-microfinance-bank-ng"
+  },
+  {
+    "name": "Bowen Microfinance Bank",
+    "slug": "bowen-microfinance-bank"
+  },
+  {
+    "name": "Branch International Finance Company Limited",
+    "slug": "branch"
+  },
+  {
+    "name": "BuyPower MFB",
+    "slug": "buypower-mfb-ng"
+  },
+  {
+    "name": "Carbon",
+    "slug": "carbon"
+  },
+  {
+    "name": "Cashbridge Microfinance Bank Limited",
+    "slug": "cashbridge-mfb-ng"
+  },
+  {
+    "name": "CASHCONNECT MFB",
+    "slug": "cashconnect-mfb-ng"
+  },
+  {
+    "name": "CEMCS Microfinance Bank",
+    "slug": "cemcs-microfinance-bank"
+  },
+  {
+    "name": "Chanelle Microfinance Bank Limited",
+    "slug": "chanelle-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Chikum Microfinance bank",
+    "slug": "chikum-microfinance-bank-ng"
+  },
+  {
+    "name": "Citibank Nigeria",
+    "slug": "citibank-nigeria"
+  },
+  {
+    "name": "CITYCODE MORTAGE BANK",
+    "slug": "citycode-mortage-bank-ng"
+  },
+  {
+    "name": "Consumer Microfinance Bank",
+    "slug": "consumer-microfinance-bank-ng"
+  },
+  {
+    "name": "Corestep MFB",
+    "slug": "corestep-mfb"
+  },
+  {
+    "name": "Coronation Merchant Bank",
+    "slug": "coronation-merchant-bank-ng"
+  },
+  {
+    "name": "County Finance Limited",
+    "slug": "county-finance-limited"
+  },
+  {
+    "name": "Credit Direct Limited",
+    "slug": "credit-direct-limited-ng"
+  },
+  {
+    "name": "Crescent MFB",
+    "slug": "crescent-mfb"
+  },
+  {
+    "name": "Crust Microfinance Bank",
+    "slug": "crust-microfinance-bank-ng"
+  },
+  {
+    "name": "CRUTECH MICROFINANCE BANK LTD",
+    "slug": "crutech-microfinance-bank-ltd-ng"
+  },
+  {
+    "name": "Davenport MICROFINANCE BANK",
+    "slug": "davenport-microfinance-bank-ng"
+  },
+  {
+    "name": "Dot Microfinance Bank",
+    "slug": "dot-microfinance-bank-ng"
+  },
+  {
+    "name": "EBSU Microfinance Bank",
+    "slug": "ebsu-microfinance-bank-ng"
+  },
+  {
+    "name": "Ecobank Nigeria",
+    "slug": "ecobank-nigeria"
+  },
+  {
+    "name": "Ekimogun MFB",
+    "slug": "ekimogun-mfb-ng"
+  },
+  {
+    "name": "Ekondo Microfinance Bank",
+    "slug": "ekondo-microfinance-bank-ng"
+  },
+  {
+    "name": "EXCEL FINANCE BANK",
+    "slug": "excel-finance-bank-ng"
+  },
+  {
+    "name": "Eyowo",
+    "slug": "eyowo"
+  },
+  {
+    "name": "Fairmoney Microfinance Bank",
+    "slug": "fairmoney-microfinance-bank-ng"
+  },
+  {
+    "name": "Fedeth MFB",
+    "slug": "fedeth-mfb-ng"
+  },
+  {
+    "name": "Fidelity Bank",
+    "slug": "fidelity-bank"
+  },
+  {
+    "name": "Firmus MFB",
+    "slug": "firmus-mfb"
+  },
+  {
+    "name": "First Bank of Nigeria",
+    "slug": "first-bank-of-nigeria"
+  },
+  {
+    "name": "First City Monument Bank",
+    "slug": "first-city-monument-bank"
+  },
+  {
+    "name": "FIRST ROYAL MICROFINANCE BANK",
+    "slug": "first-royal-microfinance-bank-ng"
+  },
+  {
+    "name": "FIRSTMIDAS MFB",
+    "slug": "firstmidas-mfb-ng"
+  },
+  {
+    "name": "FirstTrust Mortgage Bank Nigeria",
+    "slug": "firsttrust-mortgage-bank-nigeria-ng"
+  },
+  {
+    "name": "FSDH Merchant Bank Limited",
+    "slug": "fsdh-merchant-bank-limited"
+  },
+  {
+    "name": "FUTMINNA MICROFINANCE BANK",
+    "slug": "futminna-microfinance-bank-ng"
+  },
+  {
+    "name": "Garun Mallam MFB",
+    "slug": "garun-mallam-mfb-ng"
+  },
+  {
+    "name": "Gateway Mortgage Bank LTD",
+    "slug": "gateway-mortgage-bank"
+  },
+  {
+    "name": "Globus Bank",
+    "slug": "globus-bank"
+  },
+  {
+    "name": "Goldman MFB",
+    "slug": "goldman-mfb-ng"
+  },
+  {
+    "name": "GoMoney",
+    "slug": "gomoney"
+  },
+  {
+    "name": "GOOD SHEPHERD MICROFINANCE BANK",
+    "slug": "good-shepherd-microfinance-bank-ng"
+  },
+  {
+    "name": "Goodnews Microfinance Bank",
+    "slug": "goodnews-microfinance-bank-ng"
+  },
+  {
+    "name": "Greenwich Merchant Bank",
+    "slug": "greenwich-merchant-bank-ng"
+  },
+  {
+    "name": "GROOMING MICROFINANCE BANK",
+    "slug": "grooming-microfinance-bank-ng"
+  },
+  {
+    "name": "GTI MFB",
+    "slug": "gti-mfb-ng"
+  },
+  {
+    "name": "Guaranty Trust Bank",
+    "slug": "guaranty-trust-bank"
+  },
+  {
+    "name": "Hackman Microfinance Bank",
+    "slug": "hackman-microfinance-bank"
+  },
+  {
+    "name": "Hasal Microfinance Bank",
+    "slug": "hasal-microfinance-bank"
+  },
+  {
+    "name": "HopePSB",
+    "slug": "hopepsb-ng"
+  },
+  {
+    "name": "IBANK Microfinance Bank",
+    "slug": "IBANK-mfb"
+  },
+  {
+    "name": "IBBU MFB",
+    "slug": "ibbu-mfb-ng"
+  },
+  {
+    "name": "Ibile Microfinance Bank",
+    "slug": "ibile-mfb"
+  },
+  {
+    "name": "Ikoyi Osun MFB",
+    "slug": "ikoyi-osun-mfb"
+  },
+  {
+    "name": "Ilaro Poly Microfinance Bank",
+    "slug": "ilaro-poly-microfinance-bank-ng"
+  },
+  {
+    "name": "Imowo MFB",
+    "slug": "imowo-mfb-ng"
+  },
+  {
+    "name": "IMPERIAL HOMES MORTAGE BANK",
+    "slug": "imperial-homes-mortage-bank-ng"
+  },
+  {
+    "name": "Infinity MFB",
+    "slug": "infinity-mfb"
+  },
+  {
+    "name": "Infinity trust  Mortgage Bank",
+    "slug": "infinity-trust-mortgage-bank-ng"
+  },
+  {
+    "name": "ISUA MFB",
+    "slug": "isua-mfb-ng"
+  },
+  {
+    "name": "Jaiz Bank",
+    "slug": "jaiz-bank"
+  },
+  {
+    "name": "Kadpoly MFB",
+    "slug": "kadpoly-mfb"
+  },
+  {
+    "name": "KANOPOLY MFB",
+    "slug": "kanopoly-mfb-ng"
+  },
+  {
+    "name": "Keystone Bank",
+    "slug": "keystone-bank"
+  },
+  {
+    "name": "Kolomoni MFB",
+    "slug": "kolomoni-mfb-ng"
+  },
+  {
+    "name": "KONGAPAY (Kongapay Technologies Limited)(formerly Zinternet)",
+    "slug": "kongapay-tech-ltd"
+  },
+  {
+    "name": "Kredi Money MFB LTD",
+    "slug": "kredi-money-mfb"
+  },
+  {
+    "name": "Kuda Bank",
+    "slug": "kuda-bank"
+  },
+  {
+    "name": "Lagos Building Investment Company Plc.",
+    "slug": "lbic-plc"
+  },
+  {
+    "name": "Letshego Microfinance Bank",
+    "slug": "letshego-microfinance-bank"
+  },
+  {
+    "name": "Links MFB",
+    "slug": "links-mfb"
+  },
+  {
+    "name": "Living Trust Mortgage Bank",
+    "slug": "living-trust-mortgage-bank"
+  },
+  {
+    "name": "LOMA MFB",
+    "slug": "loma-mfb-ng"
+  },
+  {
+    "name": "Lotus Bank",
+    "slug": "lotus-bank"
+  },
+  {
+    "name": "MAINSTREET MICROFINANCE BANK",
+    "slug": "mainstreet-microfinance-bank-ng"
+  },
+  {
+    "name": "Mayfair MFB",
+    "slug": "mayfair-mfb"
+  },
+  {
+    "name": "Mint MFB",
+    "slug": "mint-mfb"
+  },
+  {
+    "name": "Money Master PSB",
+    "slug": "money-master-psb-ng"
+  },
+  {
+    "name": "Moniepoint MFB",
+    "slug": "moniepoint-mfb-ng"
+  },
+  {
+    "name": "MTN Momo PSB",
+    "slug": "mtn-momo-psb-ng"
+  },
+  {
+    "name": "MUTUAL BENEFITS MICROFINANCE BANK",
+    "slug": "mutual-benefits-microfinance-bank-ng"
+  },
+  {
+    "name": "NDCC MICROFINANCE BANK",
+    "slug": "ndcc-microfinance-bank-ng"
+  },
+  {
+    "name": "NET MICROFINANCE BANK",
+    "slug": "net-microfinance-bank-ng"
+  },
+  {
+    "name": "Nigerian Navy Microfinance Bank Limited",
+    "slug": "nigerian-navy-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Nombank MFB",
+    "slug": "nombank-mfb-ng"
+  },
+  {
+    "name": "NOVA BANK",
+    "slug": "nova-bank-ng"
+  },
+  {
+    "name": "Novus MFB",
+    "slug": "novus-mfb-ng"
+  },
+  {
+    "name": "NPF MICROFINANCE BANK",
+    "slug": "npf-microfinance-bank-ng"
+  },
+  {
+    "name": "NSUK MICROFINANACE BANK",
+    "slug": "nsuk-microfinanace-bank-ng"
+  },
+  {
+    "name": "OLUCHUKWU MICROFINANCE BANK LTD",
+    "slug": "oluchukwu-microfinance-bank-ltd-ng"
+  },
+  {
+    "name": "OPay Digital Services Limited (OPay)",
+    "slug": "paycom"
+  },
+  {
+    "name": "Optimus Bank Limited",
+    "slug": "optimus-bank-ltd"
+  },
+  {
+    "name": "Paga",
+    "slug": "paga"
+  },
+  {
+    "name": "PalmPay",
+    "slug": "palmpay"
+  },
+  {
+    "name": "Parallex Bank",
+    "slug": "parallex-bank"
+  },
+  {
+    "name": "Parkway - ReadyCash",
+    "slug": "parkway-ready-cash"
+  },
+  {
+    "name": "PATHFINDER MICROFINANCE BANK LIMITED",
+    "slug": "pathfinder-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Paystack-Titan",
+    "slug": "titan-paystack"
+  },
+  {
+    "name": "Peace Microfinance Bank",
+    "slug": "peace-microfinance-bank-ng"
+  },
+  {
+    "name": "PECANTRUST MICROFINANCE BANK LIMITED",
+    "slug": "pecantrust-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Personal Trust MFB",
+    "slug": "personal-trust-mfb-ng"
+  },
+  {
+    "name": "Petra Mircofinance Bank Plc",
+    "slug": "petra-microfinance-bank-plc"
+  },
+  {
+    "name": "Pettysave MFB",
+    "slug": "pettysave-mfb-ng"
+  },
+  {
+    "name": "PFI FINANCE COMPANY LIMITED",
+    "slug": "pfi-finance-company-limited-ng"
+  },
+  {
+    "name": "Platinum Mortgage Bank",
+    "slug": "platinum-mortgage-bank-ng"
+  },
+  {
+    "name": "Pocket App",
+    "slug": "pocket"
+  },
+  {
+    "name": "Polaris Bank",
+    "slug": "polaris-bank"
+  },
+  {
+    "name": "Polyunwana MFB",
+    "slug": "polyunwana-mfb-ng"
+  },
+  {
+    "name": "PremiumTrust Bank",
+    "slug": "premiumtrust-bank-ng"
+  },
+  {
+    "name": "Prospa Capital Microfinance Bank",
+    "slug": "prospa-capital-microfinance-bank-ng"
+  },
+  {
+    "name": "PROSPERIS FINANCE LIMITED",
+    "slug": "prosperis-finance-limited-ng"
+  },
+  {
+    "name": "Providus Bank",
+    "slug": "providus-bank"
+  },
+  {
+    "name": "QuickFund MFB",
+    "slug": "quickfund-mfb"
+  },
+  {
+    "name": "Rand Merchant Bank",
+    "slug": "rand-merchant-bank"
+  },
+  {
+    "name": "RANDALPHA MICROFINANCE BANK",
+    "slug": "randalpha-microfinance-bank-ng"
+  },
+  {
+    "name": "Refuge Mortgage Bank",
+    "slug": "refuge-mortgage-bank"
+  },
+  {
+    "name": "REHOBOTH MICROFINANCE BANK",
+    "slug": "rehoboth-microfinance-bank-ng"
+  },
+  {
+    "name": "Rephidim Microfinance Bank",
+    "slug": "rephidim"
+  },
+  {
+    "name": "Rigo Microfinance Bank Limited",
+    "slug": "rigo-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "ROCKSHIELD MICROFINANCE BANK",
+    "slug": "rockshield-microfinance-bank-ng"
+  },
+  {
+    "name": "Rubies MFB",
+    "slug": "rubies-mfb"
+  },
+  {
+    "name": "Safe Haven MFB",
+    "slug": "safe-haven-mfb-ng"
+  },
+  {
+    "name": "SAGE GREY FINANCE LIMITED",
+    "slug": "sage-grey-finance-limited-ng"
+  },
+  {
+    "name": "Shield MFB",
+    "slug": "shield-mfb-ng"
+  },
+  {
+    "name": "Signature Bank Ltd",
+    "slug": "signature-bank-ltd-ng"
+  },
+  {
+    "name": "Solid Allianze MFB",
+    "slug": "solid-allianze-mfb"
+  },
+  {
+    "name": "Solid Rock MFB",
+    "slug": "solid-rock-mfb"
+  },
+  {
+    "name": "Sparkle Microfinance Bank",
+    "slug": "sparkle-microfinance-bank"
+  },
+  {
+    "name": "Stanbic IBTC Bank",
+    "slug": "stanbic-ibtc-bank"
+  },
+  {
+    "name": "Standard Chartered Bank",
+    "slug": "standard-chartered-bank"
+  },
+  {
+    "name": "STANFORD MICROFINANCE BANK",
+    "slug": "stanford-microfinance-bank-ng"
+  },
+  {
+    "name": "STATESIDE MICROFINANCE BANK",
+    "slug": "stateside-microfinance-bank-ng"
+  },
+  {
+    "name": "STB Mortgage Bank",
+    "slug": "stb-mortgage-bank-ng"
+  },
+  {
+    "name": "Stellas MFB",
+    "slug": "stellas-mfb"
+  },
+  {
+    "name": "Sterling Bank",
+    "slug": "sterling-bank"
+  },
+  {
+    "name": "Suntrust Bank",
+    "slug": "suntrust-bank"
+  },
+  {
+    "name": "Supreme MFB",
+    "slug": "supreme-mfb-ng"
+  },
+  {
+    "name": "TAJ Bank",
+    "slug": "taj-bank"
+  },
+  {
+    "name": "Tangerine Money",
+    "slug": "tangerine-money"
+  },
+  {
+    "name": "TENN",
+    "slug": "tenn-ng"
+  },
+  {
+    "name": "Titan Bank",
+    "slug": "titan-bank"
+  },
+  {
+    "name": "TransPay MFB",
+    "slug": "transpay-mfb-ng"
+  },
+  {
+    "name": "U&C Microfinance Bank Ltd (U AND C MFB)",
+    "slug": "uc-microfinance-bank-ltd-u-and-c-mfb-ng"
+  },
+  {
+    "name": "UCEE MFB",
+    "slug": "ucee-mfb-ng"
+  },
+  {
+    "name": "Uhuru MFB",
+    "slug": "uhuru-mfb-ng"
+  },
+  {
+    "name": "Ultraviolet Microfinance Bank",
+    "slug": "ultraviolet-microfinance-bank-ng"
+  },
+  {
+    "name": "Unaab Microfinance Bank Limited",
+    "slug": "unaab-microfinance-bank-limited-ng"
+  },
+  {
+    "name": "Unical MFB",
+    "slug": "unical-mfb"
+  },
+  {
+    "name": "Unilag Microfinance Bank",
+    "slug": "unilag-microfinance-bank-ng"
+  },
+  {
+    "name": "UNIMAID MICROFINANCE BANK",
+    "slug": "unimaid-microfinance-bank-ng"
+  },
+  {
+    "name": "Union Bank of Nigeria",
+    "slug": "union-bank-of-nigeria"
+  },
+  {
+    "name": "United Bank For Africa",
+    "slug": "united-bank-for-africa"
+  },
+  {
+    "name": "Unity Bank",
+    "slug": "unity-bank"
+  },
+  {
+    "name": "Uzondu Microfinance Bank Awka Anambra State",
+    "slug": "uzondu-microfinance-bank-awka-anambra-state-ng"
+  },
+  {
+    "name": "Vale Finance Limited",
+    "slug": "vale-finance"
+  },
+  {
+    "name": "VFD Microfinance Bank Limited",
+    "slug": "vfd"
+  },
+  {
+    "name": "Waya Microfinance Bank",
+    "slug": "waya-microfinance-bank-ng"
+  },
+  {
+    "name": "Wema Bank",
+    "slug": "wema-bank"
+  },
+  {
+    "name": "Weston Charis MFB",
+    "slug": "weston-charis-mfb-ng"
+  },
+  {
+    "name": "Xpress Wallet",
+    "slug": "xpress-wallet-ng"
+  },
+  {
+    "name": "Yes MFB",
+    "slug": "yes-mfb-ng"
+  },
+  {
+    "name": "Zenith Bank",
+    "slug": "zenith-bank"
+  },
+  {
+    "name": "Zenith Bank",
+    "slug": "zenith-bank-usd"
+  }
+]
