@@ -1,0 +1,129 @@
+import { Resend } from "resend";
+import { config } from "dotenv";
+
+config({path: ".env.development"});
+
+class Mailer {
+  private api_key: string;
+  private resend: Resend;
+
+  constructor() {
+    this.api_key = process.env.RESEND_API_KEY as string;
+    this.resend = new Resend(this.api_key)
+  }
+
+  async sendOtpEmail(to: string, otp: string) {
+    const subject = "OTP Verification - Spark.ai";
+    const html = `<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spark.ai OTP Verification</title>
+  <style type="text/css">
+    /* FORCE FULL-WIDTH ON MOBILE */
+    @media screen and (max-width: 600px) {
+      .container { width: 100% !important; padding: 0 15px !important; }
+      .header, .footer { padding: 20px !important; }
+      .otp-code { font-size: 28px !important; letter-spacing: 3px !important; }
+      .content { padding: 20px !important; }
+    }
+    /* CLIENT-SPECIFIC RESET */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+    /* RESET */
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f5f7fa; }
+  </style>
+</head>
+<body style="background: #f5f7fa; margin: 0; padding: 0;">
+  <!-- WRAPPER -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="center" bgcolor="#f5f7fa" style="padding: 30px 10px;">
+        <!-- CONTAINER -->
+        <table class="container" border="0" cellpadding="0" cellspacing="0" width="600" style="background: #ffffff; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden;">
+          
+          <!-- ACCENT BAR -->
+          <tr>
+            <td style="height: 6px; background: linear-gradient(90deg, #FDCB05, #f0b500);"></td>
+          </tr>
+          
+          <!-- HEADER -->
+          <tr>
+            <td class="header" align="center" style="padding: 30px 40px 10px 40px;">
+              <img src="https://res.cloudinary.com/dm5ofvrke/image/upload/v1748018970/logo_black_ep0rag.png" width="120" alt="Spark.ai Logo" style="display: block; border: 0;" />
+              
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 0.9rem; color: #666666; margin: 0;">
+                The World’s First AI-Powered Banking
+              </p>
+            </td>
+          </tr>
+          
+          <!-- CONTENT -->
+          <tr>
+            <td class="content" align="center" style="padding: 30px 40px;">
+              <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 1.6rem; font-weight: 700; color: #333333; margin-bottom: 10px;">
+                Verify Your Identity
+              </h2>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 1rem; line-height: 1.5; color: #555555; margin: 0 0 25px 0;">
+               Use this 4-digit code to verify your identity and complete the sign-up process.<br>
+              </p>
+              
+              <!-- OTP CODE BOX -->
+              <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto 30px auto;">
+                <tr>
+                  <td align="center" style="background: #FDCB05; border-radius: 12px; padding: 15px 30px;">
+                    <span class="otp-code" style="font-family: 'Courier New', Courier, monospace; font-size: 32px; font-weight: 700; color: #333333; letter-spacing: 4px;">
+                     ${otp}
+                    </span>
+                  </td>
+                </tr>
+              </table>
+              
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 0.9rem; color: #777777; margin: 0;">
+                If you did not request this code, please ignore this email or contact our support team.
+              </p>
+            </td>
+          </tr>
+          
+          <!-- FOOTER -->
+          <tr>
+            <td class="footer" align="center" style="padding: 30px 40px; background: #fafafa;">
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 0.8rem; color: #aaaaaa; margin: 0;">
+                © 2025 Spark AI. All rights reserved.<br>
+                Smart. Fast. Sparked by AI.
+              </p>
+            </td>
+          </tr>
+          
+        </table>
+        <!-- END CONTAINER -->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+`;
+    return this.sendEmail(to, subject, html);
+  }
+
+  async sendEmail(to: string, subject: string, html: string) {
+    try {
+      const response = await this.resend.emails.send({
+        from: "Spark.ai <onboarding@resend.dev>",
+        to,
+        subject,
+        html
+      });
+      return response;
+    } catch (error) {
+      console.error("Error sending email:", error);
+      throw error;
+    }
+  }
+}
+
+export default new Mailer();
