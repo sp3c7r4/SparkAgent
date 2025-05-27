@@ -1,8 +1,9 @@
-import axios from 'axios'
-import {db} from './src/db'
-import {banks} from './src/db/schema'
-import { createTransferRecipientTool } from './src/mastra/tools';
-import { } from '@mastra/core'
+import readline from 'readline'
+import { agent } from './src/mastra/agents'
+
+import bcrypt from 'bcrypt'
+import { loginUserTool } from './src/mastra/tools'
+import { mastra } from './src/mastra';
 
 // const fs = require('fs')
 
@@ -23,25 +24,25 @@ import { } from '@mastra/core'
 // //   name: data.name,
 // //   slug: data.slug
 // }))
-console.log("Started")
-const testData = {
-  account_name: "BARAKAT TEMITOPE OYEKANMI",
-  account_number: "9021512232",
-  bank_code: "999992",
-  currency: "NGN",
-  type: "nuban"
-};
+// console.log("Started")
+// const testData = {
+//   account_name: "BARAKAT TEMITOPE OYEKANMI",
+//   account_number: "9021512232",
+//   bank_code: "999992",
+//   currency: "NGN",
+//   type: "nuban"
+// };
 
-const result = await createTransferRecipientTool.execute({
-  context: {
-  name: testData.account_name,
-  account_number: testData.account_number,
-  bank_code: testData.bank_code,
-  currency: testData.currency,
-  type: testData.type,
-}});
+// const result = await createTransferRecipientTool.execute({
+//   context: {
+//   name: testData.account_name,
+//   account_number: testData.account_number,
+//   bank_code: testData.bank_code,
+//   currency: testData.currency,
+//   type: testData.type,
+// }});
 
-console.log(result);
+// console.log(result);
 // const appendData = await db.query.banks.findFirst({
 //       where: (banks, { eq }) => eq(banks.slug, 'access-bank-ng')
 //     });
@@ -49,3 +50,59 @@ console.log(result);
 // fs.writeFileSync('bank-slugs.json', JSON.stringify(slugs, null, 2))
 
 // console.log((await listBanks()).map(bank => bank.slug))
+// console.time("Started inserting wallet")
+// await db.insert(wallet).values({
+//   balance: 0,
+//   is_active: true,
+//   user_id: "01JW1PNEF2RGFP5T4FXK092ESP"
+//   // 01JW1PNEF2RGFP5T4FXK092ESP
+// })
+
+// const findUser = await db.query.users.findFirst({
+//   where: (users, { eq }) => eq(users.email, "sarafasatar@gmail.com"),
+//   with: {
+//     wallet: true,
+//   }
+// })
+
+// console.log(findUser)
+// console.timeEnd("Started inserting wallet")
+// const data = {
+//   "country": "NG",
+//   "type": "bank_account",
+//   "account_number": "0111111111",
+//   "bvn": "29222222202",
+//   "bank_code": "007",
+//   "first_name": "Uchenna",
+//   "last_name": "Okoro"
+// }
+
+// const customer_code = "CUS_r3wgbio9zrc31wl"
+// const res:any = await axios({
+//   method: "post",
+//   url: `https://api.paystack.co/customer/${customer_code}/identification`,
+//   headers: {
+//     Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
+//     "Content-Type": "application/json",
+//   },
+//   data
+// })
+// console.log(res.data)
+
+// const res = await db.query.users.findFirst({
+//   where: (users, { eq }) => eq(users.email, "cyberlacoco@gmail.com")
+// })
+// console.log(await bcrypt.compare("Djlacoco24s", res.password))
+
+// console.log(await loginUserTool.execute({context: {email: "cyberlacoco@gmail.com", password: "Djlacoco24", pin: "1234"}}))
+// import { verifyEmailWorkflow } from './src/mastra/workflows';
+
+const threadId = "you";
+const resourceId = "me"
+const agents = mastra.getAgent('agent')
+const gen = await agents.generate("How are u", {
+                threadId,
+                resourceId,
+              })
+              console.log(gen)
+console.log(gen.text)
